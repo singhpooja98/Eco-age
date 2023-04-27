@@ -1,0 +1,318 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: pink; */
+
+
+}
+
+nav {
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(254, 215, 204);
+    padding: 10px 50px;
+
+}
+
+nav img {
+    width: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+
+.main i {
+    color: white;
+    font-size: 30px;
+}
+
+.containt {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(38, 63, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containt h1 {
+
+    color: rgb(250, 226, 226);
+    font-size: 35px;
+
+
+}
+
+.box {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(254, 215, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 100px;
+
+}
+
+/* .box button{
+    width: 20%;
+    height: 50px;
+} */
+
+.btn-1 {
+
+    width: 12%;
+    height: 55px;
+    background-color: rgb(254, 215, 204);
+    border: 1px solid rgb(205, 49, 106);
+
+}
+
+.btn-2 {
+    width: 20%;
+    height: 55px;
+    background-color: rgb(254, 215, 204);
+    border: 1px solid rgb(205, 49, 106);
+
+}
+
+.btn-3 {
+    width: 20%;
+    height: 55px;
+    background-color: rgb(254, 215, 204);
+    border: 1px solid rgb(205, 49, 106);
+
+}
+
+.btn-4 {
+    width: 12%;
+    height: 55px;
+    background-color: rgb(254, 215, 204);
+    border: 1px solid rgb(205, 49, 106);
+
+}
+
+.container-2 {
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: none;
+}
+
+.grid-box {
+    /* border: 1px solid black; */
+    position: center;
+    background-size: cover;
+
+}
+
+.grid-box:hover {
+
+    box-shadow: inset 100px 100px 100px 100px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.grid-box:first-child {
+
+    background-image: url(./1..Screenshot-2022-11-10-at-14.31.46-768x438.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(2) {
+
+    background-image: url(./2...Eco-stats2-768x512.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(3) {
+
+    background-image: url(./3...GCFA-Launch_website-front-768x438.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(4) {
+
+    background-image: url(./4..Screenshot-2021-12-22-at-00.34.43-e1640133358678-768x512.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(5) {
+
+    background-image: url(./5..Eco-stats-768x512.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(6) {
+
+    background-image: url(./6..test-copy.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(7) {
+
+    background-image: url(./7...TWC_farms_OceanView_20-768x513.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(8) {
+
+    background-image: url(./8..Eco-statsssss3-768x512.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(9) {
+
+    background-image: url(./9..frame_102935-768x432.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(10) {
+
+    background-image: url(./10..shutterstock_74735389-768x512.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.grid-box:nth-child(11) {
+
+    background-image: url(./11...Eco-statsssss4-768x512.png);
+    background-position: center;
+    background-size: 100% 100%
+}
+
+.grid-box:nth-child(12) {
+
+    background-image: url(./12..Gisele_resized-768x432.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.grid-box:nth-child(13) {
+
+    background-image: url(./13..FS_Guatemaya3-768x534.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.grid-box:nth-child(14) {
+
+    background-image: url(./14...Eco-stats5-768x512.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.grid-box:nth-child(15) {
+
+    background-image: url(./15..TWC_farms_BolindaVale_16-768x513.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.grid-box:last-child {
+
+    background-image: url(./16..diamonds-768x512.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(254, 215, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-box {
+    width: 300px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer i {
+
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.para p {
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
